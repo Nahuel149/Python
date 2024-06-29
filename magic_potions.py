@@ -20,6 +20,7 @@ if choose_potion in potions:
         print(ingredients)
 else: 
     print(f'Sorry, we do not have ingredients for {choose_potion}.')
+    exit()
 print(" ")
 
 if choose_potion in potions:
