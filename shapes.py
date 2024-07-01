@@ -36,14 +36,29 @@ def circle_details(print_result=True):
         print(f'The circumference of a circle is: {circumference:.2f}')
     return circumference
 
-def geometry():
-    print('First Comparison')
-    areas = "Circle" if circle(print_result=False) > square_perimeter(print_result=False) else "Square"
-    print('Second Comparison')
-    perimeters = 'Square' if square_perimeter(print_result=False) > circle_details(print_result=False) else 'Circle'
-    print('Results:')
-    print(f'The {areas} has a larger area.')
-    print(f'The {perimeters} has a larger perimeter.')
-    return areas, perimeters
+# def geometry():
+#     print('First Comparison')
+#     areas = "Circle" if circle(print_result=False) > square_perimeter(print_result=False) else "Square"
+#     print('Second Comparison')
+#     perimeters = 'Square' if square_perimeter(print_result=False) > circle_details(print_result=False) else 'Circle'
+#     print('Results:')
+#     print(f'The {areas} has a larger area.')
+#     print(f'The {perimeters} has a larger perimeter.')
+#     return areas, perimeters
 
-geometry()
+# geometry()
+
+# def geometry():
+#     print('First Comparison')
+#     if circle(print_result=False) > square_perimeter(print_result=False):
+#         print('The circle has a larger area.')
+#     else:
+#         print('The square has a larger area')
+
+#     print('Second Comparison')
+#     if square_perimeter(print_result=False) > circle_details(print_result=False):
+#         print('The square has a larger perimeter')
+#     else:
+#         print('The square has a larger perimeter')
+
+# geometry()
